@@ -872,6 +872,25 @@
   }
 }
 
+/* Master Plan Stack */
+.master-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.master-cell {
+  overflow: hidden;
+}
+.master-cell img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .evidence-warning {
   display: flex;
   align-items: flex-start;
