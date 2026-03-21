@@ -611,6 +611,14 @@
   color: var(--color-text-muted);
 }
 .action-card:hover .action-arrow { color: var(--color-accent); }
+.action-phone {
+  display: block;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: var(--space-1);
+  letter-spacing: 0.02em;
+}
 
 
 /* ============================================
