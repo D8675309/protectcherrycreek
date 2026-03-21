@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Protect Cherry Creek — Oppose Rezoning VA-2026-02</title>
+<meta name="description" content="Cherry Creek residents: oppose the 121-door apartment complex on Lake Laurie Drive. Send your opposition letter and connect with your neighbors.">
+
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=cabinet-grotesk@700,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ====== STICKY NAV ====== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-label="Cherry Creek Shield">
+        <path d="M16 2L4 8v8c0 7.2 5.1 13.9 12 16 6.9-2.1 12-8.8 12-16V8L16 2z" stroke="currentColor" stroke-width="2" fill="none"/>
+        <path d="M12 16l3 3 6-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Cherry Creek</span>
+    </a>
+    <div class="nav-links">
+      <a href="#letter">Send Letter</a>
+      <a href="#community">Connect</a>
+      <a href="#dates">Hearings</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-badge">Case VA-2026-02 &middot; Lake Laurie Drive, Valdosta</div>
+    <h1>Protect Cherry Creek</h1>
+    <p class="hero-sub">A developer wants to rezone 22 acres next to our neighborhood for a <strong>121-door apartment complex</strong>. The Planning Commission votes <strong>March 30</strong>. City Council decides <strong>April 9</strong>. Your voice matters now.</p>
+    <div class="hero-actions">
+      <a href="#letter" class="btn btn-primary">Send Your Opposition Letter</a>
+      <a href="#community" class="btn btn-outline">Join the Fight</a>
+    </div>
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <span class="hero-stat-num">121</span>
+        <span class="hero-stat-label">Doors Planned</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">200+</span>
+        <span class="hero-stat-label">Households Affected</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">0</span>
+        <span class="hero-stat-label">Impact Studies Filed</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== URGENCY BANNER ====== -->
+<div class="urgency-banner">
+  <div class="urgency-inner">
+    <div class="urgency-item">
+      <span class="urgency-icon">&#9888;</span>
+      <div>
+        <strong>Planning Commission</strong><br>
+        Mon, March 30 &middot; 5:30 PM<br>
+        <span class="urgency-loc">325 W. Savannah Ave</span>
+      </div>
+    </div>
+    <div class="urgency-divider"></div>
+    <div class="urgency-item">
+      <span class="urgency-icon">&#9888;</span>
+      <div>
+        <strong>City Council Vote</strong><br>
+        Thu, April 9 &middot; 5:30 PM<br>
+        <span class="urgency-loc">216 E. Central Ave (City Hall)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== OPPOSITION LETTER SECTION ====== -->
+<section class="section" id="letter">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-eyebrow">Take Action</span>
+      <h2>Send Your Opposition Letter</h2>
+      <p>Fill in your information below. The letter is already written — just add your name and address, review it, and hit send. It goes directly to the Valdosta Zoning Director's email.</p>
+    </div>
+
+    <!-- Step 1: Your Info -->
+    <div class="card">
+      <div class="card-head">
+        <div class="step-badge">1</div>
+        <h3>Your Information</h3>
+      </div>
+      <div class="card-body">
+        <div class="field-grid">
+          <div class="field">
+            <label for="f-date">Date</label>
+            <input type="text" id="f-date" placeholder="March 21, 2026" oninput="update()">
+          </div>
+          <div class="field">
+            <label for="f-name">Your Full Name</label>
+            <input type="text" id="f-name" placeholder="e.g. Jane Smith" oninput="update()">
+          </div>
+        </div>
+        <div class="field-grid">
+          <div class="field">
+            <label for="f-street">Street / Neighborhood</label>
+            <input type="text" id="f-street" placeholder='e.g. "Lake Laurie Drive" or "Cherry Creek"' oninput="update()">
+          </div>
+          <div class="field">
+            <label for="f-address">Full Mailing Address</label>
+            <input type="text" id="f-address" placeholder="123 Lake Laurie Dr, Valdosta, GA 31602" oninput="update()">
+          </div>
+        </div>
+        <div class="field-grid">
+          <div class="field">
+            <label for="f-contact">Phone or Email</label>
+            <input type="text" id="f-contact" placeholder="(229) 555-0000 or email" oninput="update()">
+          </div>
+          <div class="field">
+            <label for="f-email">Your Email Address (for sending)</label>
+            <input type="email" id="f-email" placeholder="you@email.com">
+          </div>
+        </div>
+
+        <div class="toggle-row">
+          <input type="checkbox" id="cc-council" checked onchange="update()">
+          <label for="cc-council">Also CC <strong>Mayor Matheson &amp; all City Council members</strong> (recommended for April 9 hearing)</label>
+        </div>
+
+        <div class="info-note">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span>Your address identifies you as a nearby resident, which strengthens your letter. Nothing is stored — this form runs entirely on your device.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2: Preview -->
+    <div class="card">
+      <div class="card-head">
+        <div class="step-badge">2</div>
+        <h3>Review Your Letter</h3>
+      </div>
+      <div class="card-body letter-preview">
+        <div class="letter" id="letter-body">
+          <!-- rendered by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: Send -->
+    <div class="card" id="send-card">
+      <div class="card-head">
+        <div class="step-badge">3</div>
+        <h3>Send It</h3>
+      </div>
+      <div class="card-body send-body">
+        <p class="send-desc">Clicking the button below opens your email app with the letter pre-filled and addressed to <strong>Matt Martin, Planning Director</strong>.</p>
+        <div class="recipient-grid">
+          <div class="recipient">
+            <span class="recipient-label">To:</span>
+            <span>mlmartin@valdostacity.com</span>
+          </div>
+          <div class="recipient" id="cc-display">
+            <span class="recipient-label">CC:</span>
+            <span>Mayor &amp; all 7 Council Members</span>
+          </div>
+        </div>
+        <button class="btn btn-send" onclick="sendLetter()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          Send Opposition Letter
+        </button>
+        <p class="send-footnote">You'll review it in your email app before it actually sends. No surprises.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== COMMUNITY SECTION ====== -->
+<section class="section section-alt" id="community">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-eyebrow">Connect</span>
+      <h2>Stand Together</h2>
+      <p>Join your Cherry Creek neighbors. Stay informed, coordinate, and make sure every voice is heard before the vote.</p>
+    </div>
+
+    <div class="action-grid">
+
+      <a href="https://www.facebook.com/groups/740677879666652" target="_blank" rel="noopener noreferrer" class="action-card">
+        <div class="action-icon" style="background: #1877F2;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </div>
+        <div class="action-text">
+          <strong>Facebook Group</strong>
+          <span>Join the Cherry Creek Neighborhood group for updates, discussions, and coordination.</span>
+        </div>
+        <svg class="action-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+
+      <a href="https://www.change.org/p/reject-rst-construction-s-case-no-va-2026-02-proposed-zoning-change-from-r-15-to-r-m?recruited_by_id=762159c0-2130-11f1-96f1-87350d9ecc22&utm_source=share_petition&utm_campaign=share_petition&utm_term=share_petition&utm_medium=copylink&share_id=hSsDQxwBvz" target="_blank" rel="noopener noreferrer" class="action-card">
+        <div class="action-icon" style="background: #e12029;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 15l-5-5 1.414-1.414L11 14.172l6.586-6.586L19 9l-8 8z"/></svg>
+        </div>
+        <div class="action-text">
+          <strong>Sign the Petition</strong>
+          <span>Add your name to the Change.org petition opposing the R-15 to R-M rezoning.</span>
+        </div>
+        <svg class="action-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+
+      <a href="https://www.valdostacity.com/zoning-division-0" target="_blank" rel="noopener noreferrer" class="action-card">
+        <div class="action-icon" style="background: #2d5a3d;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16"/></svg>
+        </div>
+        <div class="action-text">
+          <strong>Valdosta Zoning Division</strong>
+          <span>View official case documents, meeting agendas, and zoning regulations. (229) 259-3563</span>
+        </div>
+        <svg class="action-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+
+      <a href="https://www.valdostacity.com/city-council" target="_blank" rel="noopener noreferrer" class="action-card">
+        <div class="action-icon" style="background: #4a3d6e;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <div class="action-text">
+          <strong>Valdosta City Council</strong>
+          <span>Contact your elected representatives directly. They vote April 9.</span>
+        </div>
+        <svg class="action-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+
+    </div>
+
+    <!-- Council Contact Cards -->
+    <div class="council-section">
+      <h3>Your Elected Officials</h3>
+      <p class="council-desc">These are the people who will vote on April 9. Contact them directly — especially your District 5 representative, Tim Carroll.</p>
+      <div class="council-grid">
+        <div class="council-card highlight">
+          <div class="council-role">District 5 — Your Representative</div>
+          <div class="council-name">Tim Carroll</div>
+          <a href="mailto:tcarroll@valdostacity.com" class="council-email">tcarroll@valdostacity.com</a>
+          <div class="council-phone">Cell: (229) 251-6743</div>
+        </div>
+        <div class="council-card">
+          <div class="council-role">Mayor</div>
+          <div class="council-name">Scott J. Matheson</div>
+          <a href="mailto:sjmatheson@valdostacity.com" class="council-email">sjmatheson@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">District 1</div>
+          <div class="council-name">Vivian Miller-Cody</div>
+          <a href="mailto:vmiller-cody@valdostacity.com" class="council-email">vmiller-cody@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">District 2</div>
+          <div class="council-name">Sandra Tooley</div>
+          <a href="mailto:stooley@valdostacity.com" class="council-email">stooley@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">District 3</div>
+          <div class="council-name">Thomas B. McIntyre, Sr.</div>
+          <a href="mailto:tmcintyre@valdostacity.com" class="council-email">tmcintyre@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">District 4</div>
+          <div class="council-name">Eric Howard</div>
+          <a href="mailto:ehoward@valdostacity.com" class="council-email">ehoward@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">District 6 — Mayor Pro-Tem</div>
+          <div class="council-name">Andy Gibbs</div>
+          <a href="mailto:agibbs@valdostacity.com" class="council-email">agibbs@valdostacity.com</a>
+        </div>
+        <div class="council-card">
+          <div class="council-role">At-Large</div>
+          <div class="council-name">Nick Harden</div>
+          <a href="mailto:nharden@valdostacity.com" class="council-email">nharden@valdostacity.com</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ====== KEY DATES ====== -->
+<section class="section" id="dates">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-eyebrow">Timeline</span>
+      <h2>Key Dates</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item active">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Now — March 25</div>
+          <h4>Submit Written Opposition</h4>
+          <p>Send your opposition letter at least 5 days before the March 30 hearing. Use the form above to email it directly to the Zoning Director.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Monday, March 30 &middot; 5:30 PM</div>
+          <h4>Planning Commission Hearing</h4>
+          <p>325 W. Savannah Ave, Valdosta. Show up and speak. The Commission makes a recommendation to City Council.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Before April 4</div>
+          <h4>Submit Letters for City Council</h4>
+          <p>Send a second round of opposition letters addressed to the Mayor and City Council at least 5 days before the April 9 vote.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Thursday, April 9 &middot; 5:30 PM</div>
+          <h4>City Council — Final Vote</h4>
+          <p>216 E. Central Ave (City Hall), Valdosta. This is the final decision. Bring your family. Every seat matters.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p>Cherry Creek Neighborhood &middot; Valdosta, Georgia</p>
+    <p>Case # VA-2026-02 &middot; Questions: Valdosta Planning Office (229) 259-3529</p>
+    <p class="footer-attr"><a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a></p>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
