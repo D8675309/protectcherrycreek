@@ -771,6 +771,9 @@
   text-align: center;
   font-size: var(--text-xs);
   line-height: 1.8;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
 }
 .footer-inner {
   max-width: var(--content-default);
@@ -1000,6 +1003,7 @@
   width: 100%;
   height: auto;
   background: #000;
+  max-width: 100%;
 }
 
 
