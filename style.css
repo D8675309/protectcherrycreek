@@ -787,6 +787,204 @@
 
 
 /* ============================================
+   ENVIRONMENTAL SECTION
+   ============================================ */
+.env-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  background: #fdf0e8;
+  border: 1px solid #e8c4a8;
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-8);
+}
+.env-alert-icon {
+  flex-shrink: 0;
+  color: var(--color-accent);
+  margin-top: 2px;
+}
+.env-alert-icon svg { display: block; }
+.env-alert-text {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.env-section-title {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.env-law-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+@media (max-width: 640px) {
+  .env-law-grid { grid-template-columns: 1fr; }
+}
+.env-law-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+.env-law-year {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-2);
+}
+.env-law-card h4 {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+  letter-spacing: -0.01em;
+}
+.env-law-card p {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.env-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-4);
+}
+
+.env-table-wrap {
+  overflow-x: auto;
+  margin-bottom: var(--space-6);
+}
+.env-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-xs);
+}
+.env-table thead th {
+  background: var(--color-navy);
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--text-xs);
+}
+.env-table tbody td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+.env-table tbody tr:nth-child(even) {
+  background: var(--color-surface-alt);
+}
+
+.env-points {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+.env-point {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+.env-point-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.env-point strong {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+.env-point p {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.env-penalties {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+@media (max-width: 520px) {
+  .env-penalties { grid-template-columns: repeat(2, 1fr); }
+}
+.env-penalty {
+  text-align: center;
+  padding: var(--space-4);
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+.env-penalty-num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--color-accent);
+  letter-spacing: -0.02em;
+}
+.env-penalty-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-1);
+  display: block;
+}
+
+.env-cta {
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  text-align: center;
+}
+.env-cta h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+  letter-spacing: -0.02em;
+}
+.env-cta p {
+  font-size: var(--text-sm);
+  color: rgba(255,255,255,0.9);
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+
+/* ============================================
    VIDEO SECTION
    ============================================ */
 .video-container {
