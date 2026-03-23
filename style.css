@@ -779,6 +779,10 @@
   max-width: var(--content-default);
   margin: 0 auto;
 }
+.footer-inner p {
+  max-width: none;
+  margin: 0 auto;
+}
 .footer-attr {
   margin-top: var(--space-4);
 }
