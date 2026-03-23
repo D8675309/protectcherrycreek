@@ -787,6 +787,25 @@
 
 
 /* ============================================
+   VIDEO SECTION
+   ============================================ */
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.video-container video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+
+/* ============================================
    EVIDENCE / PLANS SECTION
    ============================================ */
 .section-dark {
